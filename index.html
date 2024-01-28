@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMSM Solutions</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fa-fa icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- aos  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Merriweather:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+<link rel="stylesheet" href="css/three-d.css">
+</head>
+
+
+<body onload="preloader()">
+    <div id="loader"></div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-symbols-outlined">
+            expand_less
+        </span></button>
+    <section id="content" class="nav">
+        <div class="color-plate">
+            <span style="--i:0;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <div class="glass">
+                <h1>AMSM Solutions</h1>
+                <div id="links" class="links">
+                    <a id="hide" href="#">About Us</a>
+                    <a id="hide" href="html/contact.html">Contact</a>
+                    <a id="hide" href="html/services.html">Services</a>
+                    <a id="hide" href="html/sign-in.html">Sign In</a>
+                    <a href="#">
+                        <button onclick="myFunction()"
+                            style="border: none;margin-right: 5px;background-color:transparent ;">
+                            <i class="fa-solid fa-circle-half-stroke fa-fade" style=" font-size: 15px;"></i>
+                        </button>
+                    </a>
+
+                    <a id="hide-1" onclick="menu()" href="javascript:void(0);">
+                        <button style="border: none;margin-right: 15px;background-color:transparent ;">
+                            <i class="fa-solid fa-bars fa-beat-fade" style=" font-size: 15px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="s2">
+        <span>Welcome to</span>
+        <span id="typedtext"></span><br>
+        <h2>Services</h2>
+        <p>We understand You, Your Business, and Your Goals to help you give shape to your thought and deliver them in
+            the form of flawless digital solutions that are not just backed by strong technology but also a scalable
+            digital strategy.</p>
+        <img id="img-1" src="img/img1.webp" alt="" srcset="">
+    </section>
+    <section id="s3">
+        <div class="half">
+            <div class="container">
+                <div class="modal">
+                    <h2>Top-rated Services For Our Clients</h2>
+                    <p>Achieve your business objectives with tailored solutions using modern technology and artificial
+                        intelligence.</p>
+                    <div class="modal-2">
+                        <div class="services">
+                            <div class="opt"><img src="img/seo_6029659.png" alt=""><br>
+                                <span>Seo Optimization</span><br>
+                            </div>
+                            <div class="opt"><img src="img/ux_1055666.png" alt=""><br>
+                                <span>Web Design</span><br>
+                            </div>
+                            <div class="opt">
+                                <img src="img/pen-tool_579904.png" alt=""><br>
+                                <span>Graphic Design</span><br>
+                            </div>
+                            <div class="opt"><img src="img/content_2503644.png" alt=""><br>
+                                <span>Content Marketing</span>
+                            </div>
+                        </div>
+
+                        <div class="services">
+                            <div class="opt"><img src="img/click(1).png" alt=""><br>
+                                <span>Pay Per Click</span><br>
+                            </div>
+                            <div class="opt"><img src="img/app-development.png" alt=""><br>
+                                <span>App Development</span><br>
+                            </div>
+                            <div class="opt">
+                                <img src="img/009-nlp-1 (Custom).png" alt=""><br>
+                                <span>Lead Generation</span><br>
+                            </div>
+                        </div>
+                        <!-- <div class="services">
+                            <div class="opt"><img src="/img/app-development.png" alt=""><br>
+                                <span>IT Consulting and Staffing</span><br>
+                            </div>
+                            <div class="opt"><img src="/img/app-development.png" alt=""><br>
+                                <span>Dedicated Teams Model</span><br>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="opt"><img src="/img/click(1).png" alt=""><br>
+                                <span>Software Development</span><br>
+                            </div>
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="half-2">
+            <div class="left">
+                <!-- <img id="img-half"
+                    src="https://clintcare.com/wp-content/uploads/2022/06/im-image-section-121-v2.png" alt="" srcset=""> -->
+                <img id="img-half" src="img/21517039_22.png" alt="" srcset="">
+            </div>
+            <div class="right">
+                <h4>Grow Your Business With <br> AMSM Solutions</h4>
+                <p>We are a digital marketing agency which will allow you to navigate through a variety of
+                    digital
+                    media channels for greater visibility and deeper relationships with your intended customers.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="three-d-sec">
+        <div id="three-d-div">
+            <iframe id="three-d-iframe" src="3d/3d.html" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- aos script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 900,
+                offset: -240,
+            }
+        );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+        integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/three-d.js"></script>
+</body>
+
+</html>
